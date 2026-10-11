@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Contact | Ring Flow Technologies</title>
+
+    <link rel="stylesheet" href="style.css">
+      <script src="contact.js"></script>
+
+       <!-- FONT AWESOME -->
+      <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+</head>
+
+<body>
+    <header>
+
+    <nav class="navbar">
+
+        <a href="index.html" class="logo">
+
+            <img src="ringflow_logo.png"
+                 alt="Ring Flow Technologies Logo">
+             
+             <div class="brand-text">
+               <span class="brand-name">
+                  RING FLOW<br> TECHNOLOGIES
+               </span>
+
+               <span class="brand-tagline">
+                Every call matters
+               </span>
+             </div>
+
+            </a>
+
+       <button
+            class="menu-toggle"
+            id="menuToggle"
+            type="button"
+            aria-label="Open navigation menu"
+            aria-expanded="false">
+            ☰
+        </button>
+
+        <ul class="nav-links">
+
+            <li><a href="index.html">Home</a></li>
+
+            <li><a href="about.html">About</a></li>
+
+            <li><a href="our solutions.html">Our solutions</a></li>
+
+            <li><a href="pricing.html">Pricing</a></li>
+
+            <li>
+                <a href="contact.html" class="active">
+                    Contact
+                </a>
+            </li>
+
+        </ul>
+
+    </nav>
+
+</header>
+ <!-- ================= HERO ================= -->
+
+<section class="contact-hero">
+
+    <div class="hero-content">
+
+        <p class="hero-label">RING FLOW TECHNOLOGIES</p>
+
+        <h1>
+            Let's Talk About
+            <span>Your Business</span>
+        </h1>
+
+        <p>
+            Have a question about our communication solutions?
+            Our team is ready to help you take control of your calls.
+        </p>
+
+        <div class="hero-buttons">
+
+            <a href="tel:0700093587" class="primary-btn">
+                <i class="fas fa-phone"></i>
+                Call Us
+            </a>
+
+            <a href="mailto:info@ringflow.co.ke" class="secondary-btn">
+                <i class="fas fa-envelope"></i>
+                Email Us
+            </a>
+
+            
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= CONTACT CARDS ================= -->
+
+<section class="contact-cards">
+
+    <!-- PHONE -->
+
+    <div class="contact-card">
+
+        <div class="card-icon">
+            <i class="fas fa-phone"></i>
+        </div>
+
+        <h3>Call Us</h3>
+
+        <p>Speak directly with our team.</p>
+
+        <a href="tel:0700093587">
+            0700 093 587
+        </a>
+
+        <button onclick="makeCall()">
+            <i class="fas fa-phone"></i>
+            Call Now
+        </button>
+
+    </div>
+
+
+    <!-- EMAIL -->
+
+    <div class="contact-card">
+
+        <div class="card-icon">
+            <i class="fas fa-envelope"></i>
+        </div>
+
+        <h3>Email Us</h3>
+
+        <p>Send us your enquiry.</p>
+
+        <a href="mailto:info@ringflow.co.ke">
+            info@ringflow.co.ke
+        </a>
+
+        <button onclick="sendEmail()">
+            <i class="fas fa-paper-plane"></i>
+            Send Email
+        </button>
+
+    </div>
+
+    <!-- WHATSAPP -->
+
+<div class="contact-card whatsapp-card">
+
+    <div class="card-icon">
+        <i class="fab fa-whatsapp"></i>
+    </div>
+
+    <h3>WhatsApp</h3>
+
+    <p>Chat directly with our team.</p>
+
+    <a href="https://wa.me/254700093587"
+       target="_blank"
+       rel="noopener noreferrer">
+        0700 093 587
+    </a>
+
+    <button onclick="window.open('https://wa.me/254700093587', '_blank')">
+        <i class="fab fa-whatsapp"></i>
+        Chat Now
+    </button>
+
+</div>
+
+    <div class="contact-card">
+
+        <div class="card-icon">
+            <i class="fas fa-location-dot"></i>
+        </div>
+
+        <h3>Visit Us</h3>
+
+        <p>Based in</p>
+
+        <strong>Kahawa Sukari,Mizpah office park<br>
+        3rd floor, room no.6
+        <br>Right Wing
+        </strong>
+
+        <button onclick="showLocation()">
+            <i class="fas fa-map-marker-alt"></i>
+            View Location
+        </button>
+
+    </div>
+
+</section>
+
+
+<!-- ================= MAIN CONTACT AREA ================= -->
+
+<section class="contact-area">
+
+    <!-- LEFT SIDE -->
+
+    <div class="contact-information">
+
+        <p class="section-label">GET IN TOUCH</p>
+
+        <h2>
+            We're Here To
+            <span>Help.</span>
+        </h2>
+
+        <p class="intro">
+            Whether you want to learn more about our communication
+            solutions, request assistance, or discuss your business
+            needs, reach out to Ring Flow Technologies.
+        </p>
+
+
+        <!-- OFFICE -->
+
+        <div class="info-box">
+
+            <div class="info-icon">
+                <i class="fas fa-building"></i>
+            </div>
+
+            <div>
+                <h4>Our Office</h4>
+
+                <p>
+                    Mizpah Office Park,<br>
+                    3rd Floor Room no.6, Right Wing
+                </p>
+
+                <small>Based in Kahawa Sukari</small>
+            </div>
+
+        </div>
+
+
+        <!-- PHONE -->
+
+        <div class="info-box">
+
+            <div class="info-icon">
+                <i class="fas fa-phone"></i>
+            </div>
+
+            <div>
+                <h4>Phone</h4>
+
+                <a href="tel:0700093587">
+                    0700 093 587
+                </a>
+            </div>
+
+        </div>
+
+
+        <!-- EMAIL -->
+
+        <div class="info-box">
+
+            <div class="info-icon">
+                <i class="fas fa-envelope"></i>
+            </div>
+
+            <div>
+                <h4>Email</h4>
+
+                <a href="mailto:ringflowtechnologies.com">
+                    ringflowtechnologies@gmail.com
+                </a>
+
+                <a href="mailto:info@ringflow.co.ke">
+                    info@ringflow.co.ke
+                </a>
+            </div>
+
+        </div>
+
+          <!-- WHATSAPP -->
+
+    <div class="info-box whatsapp-box">
+
+    <div class="info-icon">
+        <i class="fab fa-whatsapp"></i>
+    </div>
+
+    <div>
+        <h4>WhatsApp</h4>
+
+        <p>
+            Chat with us directly on WhatsApp.
+        </p>
+
+        <a href="https://wa.me/254700093587"
+           target="_blank"
+           rel="noopener noreferrer">
+            0700 093 587
+        </a>
+
+        <br>
+
+        <a href="https://wa.me/254700093587"
+           target="_blank"
+           rel="noopener noreferrer"
+           class="whatsapp-button">
+            <i class="fab fa-whatsapp"></i>
+            Chat on WhatsApp
+        </a>
+    </div>
+
+  </div>
+    </div>
+
+
+
+    <!-- RIGHT SIDE FORM -->
+
+    <div class="contact-form-container">
+
+        <div class="form-heading">
+
+            <p class="section-label">SEND US A MESSAGE</p>
+
+            <h2>How Can We Help?</h2>
+
+            <p>
+                Complete the form below and tell us what you need.
+            </p>
+
+        </div>
+
+
+        <form id="contactForm">
+
+            <div class="form-row">
+
+                <div class="form-group">
+
+                    <label>Your Full Names</label>
+
+                    <input
+                        type="text"
+                        id="name"
+                        placeholder="Enter your full names"
+                        required
+                    >
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label>Phone Number</label>
+
+                    <input
+                        type="tel"
+                        id="phone"
+                        placeholder="0700 000 000"
+                        required
+                    >
+
+                </div>
+
+            </div>
+
+
+            <div class="form-group">
+
+                <label>Email Address</label>
+
+                <input
+                    type="email"
+                    id="email"
+                    placeholder="Enter your email"
+                    required
+                >
+
+            </div>
+
+
+            <div class="form-group">
+
+                <label>What can we help you with?</label>
+
+                <select id="service">
+
+                    <option value="">
+                        Select an option
+                    </option>
+                    
+                    <option>Book an Appointment
+                    </option>
+                    
+                    <option>
+                        Business Communication
+                    </option>
+
+                    <option>
+                        Call Management
+                    </option>
+
+                    <option>
+                        Message Management
+                    </option>
+
+                    <option>
+                        Team Dashboard
+                    </option>
+
+                    <option>
+                        Customer Support
+                    </option>
+
+                    <option>
+                        Request a Demonstration
+                    </option>
+
+                    <option>
+                        Other
+                    </option>
+
+                </select>
+
+            </div>
+
+
+            <div class="form-group">
+
+                <label>Your Message</label>
+
+                <textarea
+                    id="message"
+                    rows="6"
+                    placeholder="Tell us how we can help..."
+                    required>
+                </textarea>
+
+            </div>
+
+
+            <button type="submit" class="submit-btn">
+
+                <span>Send Message</span>
+
+                <i class="fas fa-paper-plane"></i>
+
+            </button>
+
+
+            <!-- SUCCESS MESSAGE -->
+
+            <div id="successMessage" class="success-message">
+
+                <i class="fas fa-circle-check"></i>
+
+                <div>
+                    <strong>Message received!</strong>
+
+                    <p>
+                        Thank you for contacting Ring Flow Technologies.
+                    </p>
+                </div>
+
+            </div>
+
+        </form>
+
+    </div>
+
+</section>
+
+<!-- ================= QUICK ACTION ================= -->
+
+<section class="quick-action">
+
+    <div>
+
+        <p>READY TO TAKE CONTROL?</p>
+
+        <h2>
+            Every call matters.
+        </h2>
+
+        <span>
+            Let's improve the way your business communicates.
+        </span>
+
+    </div>
+
+
+    <div class="quick-buttons">
+
+        <a href="tel:0700093587">
+            <i class="fas fa-phone"></i>
+            0700 093 587
+        </a>
+
+        <a href="mailto:info@ringflow.co.ke">
+            <i class="fas fa-envelope"></i>
+            Email Us
+        </a>
+
+    </div>
+
+</section>
+
+
+<!-- FOOTER -->
+    <footer class="footer">
+
+        <div class="container">
+
+            <h3>
+                Ring Flow Technologies
+            </h3>
+
+            <p>
+                One number. One platform. Total control.
+            </p>
+
+            <p>
+                © 2026 Ring Flow Technologies.
+                All Rights Reserved.
+            </p>
+
+        </div>
+
+    </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
